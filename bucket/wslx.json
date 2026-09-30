@@ -11,7 +11,7 @@
         },
         "arm64": {
             "url": "https://github.com/shanewas/wslx/releases/download/v0.1.1/wslx_0.1.1_windows_arm64.zip",
-            "hash": "sha256:44151290d6e2d0e36be87f8c8134f267214efe22749f256de2742c5961a5a8b",
+            "hash": "sha256:44151290d6e2d0e36be87f8c8134f267214efe22749f256de2742c5961a5a8b7",
             "bin": "wslx.exe"
         }
     },
