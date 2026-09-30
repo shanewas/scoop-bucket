@@ -1,0 +1,31 @@
+{
+    "version": "0.1.1",
+    "description": "Bidirectional Windows-WSL interop helper in one static binary.",
+    "homepage": "https://github.com/shanewas/wslx",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/shanewas/wslx/releases/download/v0.1.1/wslx_0.1.1_windows_amd64.zip",
+            "hash": "sha256:c123f27b8c359c778444b1c3fc1968ff9a4f27df75895b8c63fbf6e23e33df3f",
+            "bin": "wslx.exe"
+        },
+        "arm64": {
+            "url": "https://github.com/shanewas/wslx/releases/download/v0.1.1/wslx_0.1.1_windows_arm64.zip",
+            "hash": "sha256:44151290d6e2d0e36be87f8c8134f267214efe22749f256de2742c5961a5a8b",
+            "bin": "wslx.exe"
+        }
+    },
+    "checkver": {
+        "github": "https://github.com/shanewas/wslx"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/shanewas/wslx/releases/download/v$version/wslx_$version_windows_amd64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/shanewas/wslx/releases/download/v$version/wslx_$version_windows_arm64.zip"
+            }
+        }
+    }
+}
